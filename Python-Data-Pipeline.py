@@ -1,9 +1,12 @@
-import pandas as pd
+# ***********************************************************************************************************************
+# import required libraries
+import pandas as pd 
 import csv
 import faker
 import numpy as np
 
-# Use a mapping file to replace a column value *************************************************************************
+# ***********************************************************************************************************************
+# Use a mapping file to replace a column value
 def load_mapping_file(mapping_file_path):
     mapping_dict = {}
 
@@ -16,7 +19,8 @@ def load_mapping_file(mapping_file_path):
 
     return mapping_dict
 
-# Use Data cleaning & Data preparation techniques *************************************************************************
+# ***********************************************************************************************************************
+# Use Data cleaning & Data preparation techniques
 def preprocess_csv(input_csv_path, mapping_file_path):
 
     # Read CSV into a pandas DataFrame
