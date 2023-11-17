@@ -1,3 +1,6 @@
+# ***********************************************************************************************************************
+# Read CSV file, Do data cleaning & transformation, Use a mapping file, Generate EDI file
+
 import pandas as pd
 import csv
 import faker
